@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+        <!-- Source implemetation -->
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+        <script src="bootstrap/bootstrap.min.js"></script>
+        <script src="bootstrap/jquery.min.js"></script>
+        <!-- Source implemetation -->
+        <title>Zinseszins Rechner</title>
+        <!--Selfe defined-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <body>
+        
+        <div class="container">
+            <h1>Zinseszins Rechner</h1>
+
+            <label>Startsumme</label>
+            <input id="imputStart" class="form-control form-control-lg" type="number" min="1" required>
+
+            <label>Zinssatz</label>
+            <input id="imputZins" class="form-control form-control-lg" type="number" min="0" required>
+                
+            <label>Zeitraum in Jahren</label>
+            <input id="imputYears" class="form-control form-control-lg" type="number" min="1" required>
+            
+            <button onclick="calculateInterest()" type="button" class="btn btn-secondary btn-lg btn-block">Berechnen</button>
+
+            <label>Ausgabe</label>
+            <input id="output" class="form-control form-control-lg" type="text" readonly>
+        </div>
+        <script src="logic.js"></script> 
+    </body>
+</html> 
