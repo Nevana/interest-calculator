@@ -1,2 +1,3 @@
 # interest-calculator
-smal project for school
+small project for school to calcolate compound interest
+* Run `index.html` to execute the calculator
